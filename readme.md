@@ -44,5 +44,3 @@ Set 4 keys - Load 4 different 8-bit keys
 Encrypt - XOR each byte with current key, then move to next key
 Cycle keys - After 4th key, go back to 1st key
 Decrypt - Same process (XOR is reversible)
-
-Troubleshooting
