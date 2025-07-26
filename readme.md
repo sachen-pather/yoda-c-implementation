@@ -9,12 +9,12 @@ Uses simple XOR encryption (easy to extend)
 
 Files
 dea.h/dea.c - Core encryption engine
-main.c - Basic single-thread example
+serial_dea.c - Basic single-thread example
 parallel_dea.c - Simulated parallel version
 mpi_dea.c - MPI parallel version
 Build It (Windows)
 bash# Basic version
-gcc -o dea_test.exe main.c dea.c
+gcc -o serial_dea serial_dea.c dea.c
 
 # Parallel simulation (no MPI needed)
 
@@ -29,7 +29,10 @@ gcc -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" ^
 -o mpi_dea.exe mpi_dea.c dea.c -lmsmpi
 Run It
 bash# Basic version
-.\dea_test.exe
+
+gcc -L"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" -o mpi_dea.exe mpi_dea.c dea.c -lmsmpi
+
+.\serial_dea.exe
 
 # Simulated parallel
 

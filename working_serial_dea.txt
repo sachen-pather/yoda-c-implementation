@@ -71,10 +71,15 @@ void dea_encrypt_block(DEA *dea, uint8_t *data, size_t length, uint8_t *output) 
 // Decrypt function - for XOR encryption, we need to reset the key counter
 // and then perform the same operation as encryption
 void dea_decrypt_block(DEA *dea, uint8_t *data, size_t length, uint8_t *output) {
-    // DO NOT reset the key counter - it should be set correctly before calling this function
-    // In MPI, different processes encrypt with different key counter offsets
+    // Save the current key counter
+    uint8_t saved_counter = dea->key_counter;
+    
+    // Reset key counter to ensure we start with the same key sequence
+    dea->key_counter = 0;
     
     // For XOR encryption, encryption and decryption are the same operation
-    // Just apply the encryption algorithm with the current key counter
     dea_encrypt_block(dea, data, length, output);
+    
+    // Restore the key counter if needed (or keep it at the new position)
+    // dea->key_counter = saved_counter;
 }
