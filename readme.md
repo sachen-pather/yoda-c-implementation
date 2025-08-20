@@ -2,7 +2,7 @@ View the youtube presentation in the link (in the "about" section) and the repor
 
 # DEA (Data Encryption Algorithm) Implementation
 
-**High-Performance Parallel Cryptography, MPI Distributed Computing, Hardware-Software Co-Design**
+**key topics: High-Performance Parallel Cryptography | MPI Distributed Computing | Hardware-Software Co-Design**
 
 A C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). This explores CE/CS topics such as **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
 
