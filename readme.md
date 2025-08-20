@@ -4,7 +4,7 @@ View the youtube presentation in the link (in the "about" section) and the repor
 
 **High-Performance Parallel Cryptography | MPI Distributed Computing | Hardware-Software Co-Design**
 
-A cutting-edge C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). Perfect for **Computer Science** and **Computer Engineering** students exploring **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
+A C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). Perfect for **Computer Science** and **Computer Engineering** students exploring **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
 
 ## Overview
 
