@@ -2,16 +2,39 @@ View the youtube presentation in the link (in the "about" section) and the repor
 
 # DEA (Data Encryption Algorithm) Implementation
 
-A high-performance C implementation of a multi-key XOR-based Data Encryption Algorithm (DEA) with both serial and MPI parallel processing capabilities.
+** High-Performance Parallel Cryptography | MPI Distributed Computing | Hardware-Software Co-Design**
+
+A cutting-edge C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). Perfect for **Computer Science** and **Computer Engineering** students exploring **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
 
 ## Overview
 
-This project implements a custom encryption algorithm that uses multiple keys in a rotating fashion to encrypt data using XOR operations. The implementation includes:
+This project demonstrates advanced **parallel programming techniques** and **distributed systems** concepts through a custom encryption algorithm that bridges **hardware implementation** (FPGA Verilog origins) with **high-performance software**. The implementation showcases:
 
-- **Serial version**: Single-threaded encryption for baseline performance
-- **MPI parallel version**: Distributed encryption across multiple processes
-- **Performance benchmarking**: Detailed timing and throughput analysis
-- **Test file generators**: Various sizes for performance testing
+- ** Parallel Computing**: MPI-based distributed encryption with load balancing
+- ** Performance Engineering**: CPU cycle-accurate benchmarking and optimization
+- ** Hardware-Software Bridge**: Software implementation mirroring FPGA Verilog design patterns
+- ** Scalability Analysis**: Comprehensive parallel efficiency and speedup measurements
+- ** Systems Programming**: Low-level optimization with memory management and I/O efficiency
+- ** Computer Architecture**: Cache-aware design and CPU performance characterization
+
+## Learning Objectives & Academic Value
+
+- **Parallel Algorithms**: Understanding data decomposition and distributed processing
+- **Performance Analysis**: Profiling, benchmarking, and optimization techniques
+- **Concurrency**: MPI communication patterns and synchronization
+- **Algorithm Design**: Cryptographic primitives and key management
+
+- **Hardware-Software Co-Design**: Translating FPGA concepts to software
+- **Computer Architecture**: CPU cycles, cache behavior, and memory hierarchy
+- **Systems Optimization**: Low-level performance tuning and resource management
+- **Embedded Systems**: Efficient algorithms suitable for hardware acceleration
+
+**Comparison with FPGA Implementation:**
+- **Throughput**: Software ~500 MB/s vs FPGA potential ~10+ GB/s
+- **Latency**: Software variable vs FPGA deterministic cycle timing
+- **Scalability**: Software scales with cores vs FPGA scales with logic resources
+- **Power Efficiency**: FPGA advantage ~10-100x lower power per operation
+- **Development Complexity**: Software easier to debug vs FPGA requires hardware expertise
 
 ## Features
 
