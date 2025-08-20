@@ -1,4 +1,4 @@
-View the youtube presentation and the report for key findings
+View the youtube presentation in the link (in the "about" section) and the report for key findings and a more detailed analysis
 
 # DEA (Data Encryption Algorithm) Implementation
 
