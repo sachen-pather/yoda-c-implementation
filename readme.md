@@ -4,18 +4,18 @@ View the youtube presentation in the link (in the "about" section) and the repor
 
 **High-Performance Parallel Cryptography | MPI Distributed Computing | Hardware-Software Co-Design**
 
-A C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). Perfect for **Computer Science** and **Computer Engineering** students exploring **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
+A C implementation showcasing **MPI parallel programming**, **distributed encryption**, and **FPGA-to-software migration** for multi-key XOR-based Data Encryption Algorithm (DEA). This explores CE/CS topics such as **parallel computing**, **cryptographic acceleration**, and **performance optimization**.
 
 ## Overview
 
 This project demonstrates advanced **parallel programming techniques** and **distributed systems** concepts through a custom encryption algorithm that bridges **hardware implementation** (FPGA Verilog origins) with **high-performance software**. The implementation showcases:
 
-- ** Parallel Computing**: MPI-based distributed encryption with load balancing
-- ** Performance Engineering**: CPU cycle-accurate benchmarking and optimization
-- ** Hardware-Software Bridge**: Software implementation mirroring FPGA Verilog design patterns
-- ** Scalability Analysis**: Comprehensive parallel efficiency and speedup measurements
-- ** Systems Programming**: Low-level optimization with memory management and I/O efficiency
-- ** Computer Architecture**: Cache-aware design and CPU performance characterization
+- **Parallel Computing**: MPI-based distributed encryption with load balancing
+- **Performance Engineering**: CPU cycle-accurate benchmarking and optimization
+- **Hardware-Software Bridge**: Software implementation mirroring FPGA Verilog design patterns
+- **Scalability Analysis**: Comprehensive parallel efficiency and speedup measurements
+- **Systems Programming**: Low-level optimization with memory management and I/O efficiency
+- **Computer Architecture**: Cache-aware design and CPU performance characterization
 
 ## Learning Objectives & Academic Value
 
